@@ -1,2 +1,2 @@
 #!/bin/bash
-$(($(echo "$WATER" | tr water bestchol)" + "$(echo "$STIR" | tr stir bestchol))) | tr bestchol water
+$(($(echo "$WATER" | tr water bestchol) + $(echo "$STIR" | tr stir bestchol))) | tr bestchol water
