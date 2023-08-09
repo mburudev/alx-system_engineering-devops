@@ -8,6 +8,9 @@ if [[ -f school ]]; then
 		echo "school file is empty"
 	fi
 	echo "school is a regular file"
+elif [[ -d school ]]; then
+	echo "school file exists"
+	echo "school file is not empty"
 else
 	echo "school file does not exist"
 fi
