@@ -16,6 +16,9 @@ do
             echo "$i"
             echo "bad luck from Italy"
             ;;
+        20)
+            echo "$i"
+            ;;
         *)
             echo "$i"
             ;;
